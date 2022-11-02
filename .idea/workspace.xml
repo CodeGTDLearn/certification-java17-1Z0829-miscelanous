@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ada4b0b5-ece6-478d-9875-19394849ac39" name="Changes" comment="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Raw Classes&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/Generic_ReturnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Generic_ReturnMethod.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2D29EX4TtzfnTSILlZf1X1DOuTD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ToolWindowRun.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;ToolWindowStructure.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/SERVIDOR/Projects/certification-java-objects-classes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2657856&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SERVIDOR\Projects\certification-java-objects-classes\src\main\java\org\example\cuncurrency" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.generics" />
+      <recent name="org.example.genericwrappers" />
+      <recent name="org.example.compare" />
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestClass">
+    <configuration name="ChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ChildClass" />
+      <module name="certification-java-objects-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generic_ReturnMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.Generic_ReturnMethod" />
+      <module name="certification-java-objects-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generic_VoidMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.Generic_VoidMethod" />
+      <module name="certification-java-objects-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRawGenericClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.generics.MyRawGenericClass" />
+      <module name="certification-java-objects-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TestClass" />
+      <module name="certification-java-objects-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.Generic_ReturnMethod" />
+        <item itemvalue="Application.Generic_VoidMethod" />
+        <item itemvalue="Application.MyRawGenericClass" />
+        <item itemvalue="Application.ChildClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ada4b0b5-ece6-478d-9875-19394849ac39" name="Changes" comment="" />
+      <created>1659886200878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659886200878</updated>
+    </task>
+    <task id="LOCAL-00001" summary="1.0) Mongo ReplicasetAuth&#10;&#10;-&gt; CONCLUDED:&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1659886341905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659886341905</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1659886451621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659886451622</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1659886662599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659886662599</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1659887084824</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659887084824</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Starting project&#10;&#10;-&gt; WORKING:&#10;Generic MEthods&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1659982408138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659982408138</updated>
+    </task>
+    <task id="LOCAL-00006" summary="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;&#10;-&gt; WORKING:&#10;Generic WildCard&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660077733782</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660077733782</updated>
+    </task>
+    <task id="LOCAL-00007" summary="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;&#10;-&gt; WORKING:&#10;Generic WildCard - out of concepts&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660078484364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660078484364</updated>
+    </task>
+    <task id="LOCAL-00008" summary="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;&#10;-&gt; WORKING:&#10;Generic WildCard - out of concepts&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660079975544</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660079975544</updated>
+    </task>
+    <task id="LOCAL-00009" summary="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;Generic WildCard - out of concepts&#10;Generics Conclusion&#10;&#10;-&gt; WORKING:&#10;Collections Framework&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660085466872</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660085466872</updated>
+    </task>
+    <task id="LOCAL-00010" summary="3.0) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;Generic WildCard - out of concepts&#10;Generics Conclusion&#10;Collections Framework: Set, List&#10;&#10;-&gt; WORKING:&#10;Queue + Deque&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660158029938</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660158029938</updated>
+    </task>
+    <task id="LOCAL-00011" summary="4.0) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Queue + Deque&#10;&#10;-&gt; WORKING:&#10;Map&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660245199478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660245199478</updated>
+    </task>
+    <task id="LOCAL-00012" summary="5.0) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Map compute&#10;&#10;-&gt; WORKING:&#10;Map Merge&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660331421041</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660331421041</updated>
+    </task>
+    <task id="LOCAL-00013" summary="5.1) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Map compute&#10;&#10;-&gt; WORKING:&#10;Map Merge&#10;Collections Views&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660419764748</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1660419764748</updated>
+    </task>
+    <task id="LOCAL-00014" summary="5.1) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Map compute&#10;&#10;-&gt; WORKING:&#10;Map Merge&#10;Collections Views&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660430763441</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660430763441</updated>
+    </task>
+    <task id="LOCAL-00015" summary="5.2) Comparators + Comparables&#10;&#10;-&gt; CONCLUDED:&#10;Map Merge&#10;Collections Views&#10;Comparators + Comparables&#10;&#10;-&gt; WORKING:&#10;Comparators + Comparables&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660683897183</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660683897183</updated>
+    </task>
+    <task id="LOCAL-00016" summary="5.2) Comparators + Comparables&#10;&#10;-&gt; CONCLUDED:&#10;Map Merge&#10;Collections Views&#10;Comparators + Comparables&#10;&#10;-&gt; WORKING:&#10;Comparators + Comparables&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660749034252</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660749034252</updated>
+    </task>
+    <task id="LOCAL-00017" summary="5.2) Comparators + Comparables&#10;&#10;-&gt; CONCLUDED:&#10;Map Merge&#10;Collections Views&#10;Comparators + Comparables&#10;&#10;-&gt; WORKING:&#10;Comparators + Comparables&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660761493572</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1660761493572</updated>
+    </task>
+    <task id="LOCAL-00018" summary="5.2) Comparators + Comparables&#10;&#10;-&gt; CONCLUDED:&#10;Map Merge&#10;Collections Views&#10;Comparators + Comparables&#10;&#10;-&gt; WORKING:&#10;Comparators + Comparables&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming">
+      <created>1660777569041</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1660777569041</updated>
+    </task>
+    <task id="LOCAL-00019" summary="5.3) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;&#10;-&gt; WORKING:&#10;Wrappers&#10;&#10;-&gt; NEXT STEPS:&#10;Functional Programming&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes">
+      <created>1660835257891</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1660835257891</updated>
+    </task>
+    <task id="LOCAL-00020" summary="5.3) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;&#10;-&gt; WORKING:&#10;Wrappers&#10;&#10;-&gt; NEXT STEPS:&#10;Functional Programming&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes">
+      <created>1660853388422</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1660853388422</updated>
+    </task>
+    <task id="LOCAL-00021" summary="5.4) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;Wrappers&#10;&#10;-&gt; WORKING:&#10;Functional Programming&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes">
+      <created>1660931106288</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1660931106288</updated>
+    </task>
+    <task id="LOCAL-00022" summary="5.4) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;Wrappers&#10;&#10;-&gt; WORKING:&#10;Functional Programming&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes">
+      <created>1661193370473</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1661193370473</updated>
+    </task>
+    <task id="LOCAL-00023" summary="5.4) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;Wrappers&#10;&#10;-&gt; WORKING:&#10;Functional Programming&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes">
+      <created>1661193431617</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1661193431617</updated>
+    </task>
+    <task id="LOCAL-00024" summary="5.4) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;Wrappers&#10;&#10;-&gt; WORKING:&#10;Functional Programming&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes">
+      <created>1663079381413</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1663079381413</updated>
+    </task>
+    <task id="LOCAL-00025" summary="5.4) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;Wrappers&#10;&#10;-&gt; WORKING:&#10;Functional Programming&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes">
+      <created>1663080114716</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1663080114716</updated>
+    </task>
+    <task id="LOCAL-00026" summary="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1664917873608</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664917873608</updated>
+    </task>
+    <task id="LOCAL-00027" summary="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Examples&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1666361113243</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1666361113244</updated>
+    </task>
+    <task id="LOCAL-00028" summary="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Examples&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1666362205984</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666362205984</updated>
+    </task>
+    <task id="LOCAL-00029" summary="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Examples&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1667314491556</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1667314491556</updated>
+    </task>
+    <task id="LOCAL-00030" summary="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Raw Classes&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
+      <created>1667426687758</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1667426687758</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.0) Mongo ReplicasetAuth&#10;&#10;-&gt; CONCLUDED:&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="1.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;&#10;-&gt; WORKING:&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="2.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Starting project&#10;&#10;-&gt; WORKING:&#10;Generic MEthods&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;&#10;-&gt; WORKING:&#10;Generic WildCard&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;&#10;-&gt; WORKING:&#10;Generic WildCard - out of concepts&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;Generic WildCard - out of concepts&#10;&#10;-&gt; WORKING:&#10;Colletions&#10;&#10;-&gt; NEXT STEPS:&#10;Generics Conclusion&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="3.0) Starting Project&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;Generic WildCard - out of concepts&#10;Generics Conclusion&#10;&#10;-&gt; WORKING:&#10;Collections Framework&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="3.0) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Generic Basic&#10;Generic WildCard&#10;Generic WildCard - out of concepts&#10;Generics Conclusion&#10;Collections Framework: Set, List&#10;&#10;-&gt; WORKING:&#10;Queue + Deque&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="4.0) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Queue + Deque&#10;&#10;-&gt; WORKING:&#10;Map&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="5.0) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Map compute&#10;&#10;-&gt; WORKING:&#10;Map Merge&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="5.1) Collections&#10;&#10;-&gt; CONCLUDED:&#10;Map compute&#10;&#10;-&gt; WORKING:&#10;Map Merge&#10;Collections Views&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="5.2) Comparators + Comparables&#10;&#10;-&gt; CONCLUDED:&#10;Map Merge&#10;Collections Views&#10;Comparators + Comparables&#10;&#10;-&gt; WORKING:&#10;Comparators + Comparables&#10;&#10;-&gt; NEXT STEPS:&#10;Finish COllections&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Functional Programming" />
+    <MESSAGE value="5.3) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;&#10;-&gt; WORKING:&#10;Wrappers&#10;&#10;-&gt; NEXT STEPS:&#10;Functional Programming&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes" />
+    <MESSAGE value="5.4) Comparators + Comparables + Wrappers&#10;&#10;-&gt; CONCLUDED:&#10;Comparators + Comparables - EXtra&#10;Wrappers&#10;&#10;-&gt; WORKING:&#10;Functional Programming&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:&#10;Java 17 Changes" />
+    <MESSAGE value="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Examples&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <MESSAGE value="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Raw Classes&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Raw Classes&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:" />
+  </component>
+</project>

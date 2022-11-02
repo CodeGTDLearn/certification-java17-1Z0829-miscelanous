@@ -1,5 +1,7 @@
 package org.example.generics;
 
+import java.io.Serializable;
+
 public class Generic_ReturnMethod {
 
   <T> T genericReturnMethodShowElement(T element) {
