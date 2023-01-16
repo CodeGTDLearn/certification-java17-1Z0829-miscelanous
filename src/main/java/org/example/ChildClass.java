@@ -37,5 +37,17 @@ public class ChildClass extends FatherClass {
     Object obj1 = new Object(), ob22 = new FatherClass();
     FatherClass obj3 = new FatherClass(), ob222 = new ChildClass();
 
+    System.out.println("-------------------- SWALLOW OBJECTS PROCESSING --------------------");
+
+    FatherClass fatherSwallower = new FatherClass();
+    fatherSwallower.getH();
+
+    ChildClass childClassSwallowed = new ChildClass();
+    childClassSwallowed.getH();
+
+    fatherSwallower = childClassSwallowed;
+
+    System.out.println("State after Swallowing: " + fatherSwallower.h);
+    System.out.println("Behaviour after Swallowing: " + fatherSwallower.getH());
   }
 }

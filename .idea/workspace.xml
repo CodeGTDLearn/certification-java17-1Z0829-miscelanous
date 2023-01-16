@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ada4b0b5-ece6-478d-9875-19394849ac39" name="Changes" comment="5.5) General Tests&#10;&#10;-&gt; CONCLUDED:&#10;- Generics Raw Classes&#10;&#10;-&gt; WORKING:&#10;&#10;&#10;-&gt; NEXT STEPS:&#10;&#10;-&gt; FUTURE IMPLEMENTATIONS:">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/Generic_ReturnMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Generic_ReturnMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ChildClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestClass">
+  <component name="RunManager" selected="Application.ChildClass">
     <configuration name="ChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.ChildClass" />
       <module name="certification-java-objects-classes" />
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChildClass" />
         <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Generic_ReturnMethod" />
         <item itemvalue="Application.Generic_VoidMethod" />
         <item itemvalue="Application.MyRawGenericClass" />
-        <item itemvalue="Application.ChildClass" />
       </list>
     </recent_temporary>
   </component>
