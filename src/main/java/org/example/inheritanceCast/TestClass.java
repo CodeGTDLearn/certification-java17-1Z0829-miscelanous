@@ -1,4 +1,4 @@
-package org.example;
+package org.example.inheritanceCast;
 
 public class TestClass {
   public static void main(String args[]) {

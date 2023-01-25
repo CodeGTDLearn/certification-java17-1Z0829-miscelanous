@@ -1,19 +1,23 @@
 package org.example.generics;
 
-import java.io.Serializable;
-
 public class Generic_ReturnMethod {
 
-  <T> T genericReturnMethodShowElement(T element) {
+  <T> T generic_Return_Argument(T element) {
 
     return element;
 
   }
 
-  <T extends Number> T genericReturnMethodNumber(T number) {
+  <T> String generic_Argument(T element) {
 
-    System.out.println("\n Showing my Number: " + number.getClass()
-                                                        .toGenericString() + " - " + number);
+    return element.toString();
+
+  }
+
+  <T extends Number> T generic_ReturnArgumentBounded(T number) {
+
+    show("\n Showing my Number: " + number.getClass()
+                                          .toGenericString() + " - " + number);
 
     return number;
   }
@@ -21,27 +25,24 @@ public class Generic_ReturnMethod {
 
   public static void main(String args[]) {
 
-    Generic_ReturnMethod genMet = new Generic_ReturnMethod();
+    Generic_ReturnMethod gen = new Generic_ReturnMethod();
 
-    String myWord = "myWord";
-    final String s = genMet.genericReturnMethodShowElement(myWord);
-    System.out.println(s+ s.getClass()
-                                   .toGenericString());
+    final String retWord = gen.generic_Return_Argument("myWord");
+    show(retWord + retWord.getClass().toGenericString());
 
-    int myInt = 5;
-    final int sInt = genMet.genericReturnMethodShowElement(myInt);
-    System.out.println(sInt);
+    final int retInt = gen.generic_Return_Argument(5);
+    System.out.println(retInt);
 
-    int myWrapperInt = 55;
-    final Integer myWrapper = genMet.genericReturnMethodShowElement(myWrapperInt);
-    System.out.println(
-         myWrapper + myWrapper.getClass()
-                              .toGenericString());
+    final Integer myWrapper = gen.generic_Return_Argument(55);
+    show(myWrapper + myWrapper.getClass().toGenericString());
 
-    Double myDob = 45.0;
-    genMet.genericReturnMethodNumber(myDob);
+    final Long aLong = gen.generic_ReturnArgumentBounded(45L);
 
-    long myLong = 45L;
-    genMet.genericReturnMethodNumber(myLong);
+    show(gen.generic_Argument(55L));
+  }
+
+  private static void show(String myWrapper) {
+
+    System.out.println(myWrapper);
   }
 }

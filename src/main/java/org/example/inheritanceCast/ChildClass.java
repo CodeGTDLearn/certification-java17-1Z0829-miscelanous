@@ -1,4 +1,4 @@
-package org.example;
+package org.example.inheritanceCast;
 
 class FatherClass {
   public int h = 4;
