@@ -1,4 +1,4 @@
-package org.example;
+package org.example.primitive_wrappers;
 
 import java.util.ArrayList;
 import java.util.Arrays;

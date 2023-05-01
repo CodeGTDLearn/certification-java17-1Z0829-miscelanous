@@ -9,7 +9,7 @@ public class OuterClass {
 
     final int outerStatic = OuterStatic;
     final int nestedStatic = NestedClass.NestedStatic;
-    OuterInstance;
+//    OuterInstance;
   }
 
   {
@@ -23,7 +23,7 @@ public class OuterClass {
   static void staticMethod() {
 
     final int xx = OuterStatic;
-    OuterInstance;
+//    OuterInstance;
     final int nestedStatic = NestedClass.NestedStatic;
 
   }
@@ -52,14 +52,14 @@ public class OuterClass {
 
       final int outerStatic = OuterStatic;
       final int nestedStatic = NestedStatic;
-      OuterInstance;
-      NestedInstance;
+//      OuterInstance;
+//      NestedInstance;
     }
 
     {
       final int outerStatic = OuterStatic;
       final int nestedStatic = NestedStatic;
-      OuterInstance;
+//      OuterInstance;
       final int nestedInstance = NestedInstance;
     }
 
@@ -67,8 +67,8 @@ public class OuterClass {
 
       final int xx = OuterStatic;
       final int nestedStatic = NestedStatic;
-      OuterInstance;
-      NestedInstance;
+//      OuterInstance;
+//      NestedInstance;
 
       final int i = NestedStatic;
       //      NestedInstance;
@@ -79,7 +79,7 @@ public class OuterClass {
       final int xx = OuterStatic;
       final int nestedStatic = NestedStatic;
 
-      OuterInstance;
+//      OuterInstance;
       final int xxx = NestedInstance;
     }
   }
