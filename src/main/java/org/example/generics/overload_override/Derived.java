@@ -7,16 +7,22 @@ class Derived extends Base {
 
 
   // OVER-LOAD
-//  public <T, Z> TreeMap<T, Z> getMap(T t, Z z) {
-//
-//    return new TreeMap<T, Z>();
-//  }
+  //  public <T, Z> TreeMap<T, Z> getMap(T t, Z z) {
+  //
+  //    return new TreeMap<T, Z>();
+  //  }
 
 
   // OVERRIDE
   public Map<Double, Long> getMap(Number t, Number z) {
 
     return new TreeMap<Double, Long>();
+  }
+
+  // OVERRIDE
+  public Map<String, String> getMapTriple(Number t, Number z) {
+
+    return new TreeMap<String, String>();
   }
 
   // OVERRIDE
