@@ -3,27 +3,24 @@ package org.example.generics;
 public class Generic_DiverseArgReturn {
   public static void main(String args[]) {
 
-    String resultado1 = Generic_DiverseArgReturn.<String, String>meuMetodo("teste");
-    System.out.println(resultado1); // imprime "O parâmetro é uma String: teste"
+    String res1 = Generic_DiverseArgReturn.<String, String>myMethod("teste");
+    System.out.println(res1);
 
-    String resultado2 = Generic_DiverseArgReturn.<String, Integer>meuMetodo(10);
-    System.out.println(resultado2); // imprime "O parâmetro é um Integer: 10"
-
-    String resultado3 = Generic_DiverseArgReturn.<String, Double>meuMetodo(3.14);
-    System.out.println(resultado3); // imprime "O parâmetro é de um tipo desconhecido: 3.14"
+    String res2 = Generic_DiverseArgReturn.myMethod(10);
+    System.out.println(res2);
   }
 
 
-  public static <T, U> T meuMetodo(U parametro) {
+  public static <T, U> T myMethod(U arg) {
 
-    T valor1;
-    if (parametro instanceof String) {
-      valor1 = (T) ("O parâmetro é uma String: " + parametro);
-    } else if (parametro instanceof Integer) {
-      valor1 = (T) ("O parâmetro é um Integer: " + parametro);
+    T myGenReturn;
+    if (arg instanceof String) {
+      myGenReturn = (T) ("O parâmetro é uma String: " + arg);
+    } else if (arg instanceof Integer) {
+      myGenReturn = (T) ("O parâmetro é um Integer: " + arg);
     } else {
-      valor1 = (T) ("O parâmetro é de um tipo desconhecido: " + parametro);
+      myGenReturn = (T) ("O parâmetro é de um tipo desconhecido: " + arg);
     }
-    return valor1;
+    return myGenReturn;
   }
 }
