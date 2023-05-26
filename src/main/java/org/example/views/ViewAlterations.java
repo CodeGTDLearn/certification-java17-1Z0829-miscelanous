@@ -18,9 +18,6 @@ public class ViewAlterations {
     out.println();
 
 
-    out.println("Change View-Item[1] / Origin-Item[0]" + "\n");
-    origem[0] = "changeOrigin";
-    view.set(1, "changeView");
 
 /*╔═════════════════════╗
   ║ DIRECT REMOVE + ADD ║
@@ -30,11 +27,13 @@ public class ViewAlterations {
     // view.add("changeView");
     // view.remove("changeView");
 
+    origem[0] = "Origin Item-Changed";
+    view.set(1, "View Item-Changed");
+    out.println("Change Origin-Item[0]");
     for (var st : origem) out.println("Final Origin: " + st);
     out.println();
+    out.println("Change View-Item[1]");
     for (var st : view) out.println("Final View: " + st);
-
-
   }
 }
 //    view.sort(Comparator.reverseOrder());
