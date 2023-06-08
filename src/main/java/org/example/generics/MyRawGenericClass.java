@@ -1,5 +1,7 @@
 package org.example.generics;
 
+import static java.lang.System.*;
+
 public class MyRawGenericClass<T> {
 
   T myVariable;
@@ -11,11 +13,12 @@ public class MyRawGenericClass<T> {
   public static void main(String[] args) {
 
     MyRawGenericClass gc = new MyRawGenericClass();
-    System.out.println(gc.transform(1));
-    System.out.println(gc.transform("hello"));
+    out.println(gc.transform(1));
+    out.println(gc.transform("hello"));
+    out.println(gc.myVariable);
 
 
     MyRawGenericClass<String> gcStr = new MyRawGenericClass<String>();
-    System.out.println(gcStr.transform(1.1));
+    out.println(gcStr.transform(1.1));
   }
 }
