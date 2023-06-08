@@ -31,7 +31,7 @@ class OrderedClass {
     }
 }
 
-public class InitializerOrder {
+public class InitOrder {
     public static void main(String[] args) {
         // Instantiating the object should set off initialization code.
         OrderedClass o = new OrderedClass();

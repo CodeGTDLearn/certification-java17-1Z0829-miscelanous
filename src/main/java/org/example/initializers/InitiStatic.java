@@ -28,7 +28,7 @@ class staticInitExample {
     }
 }
 
-public class StaticInitializer {
+public class InitiStatic {
     public static void main(String[] args) {
         System.out.println("statements made so far = " +
                 staticInitExample.statementOrder);
