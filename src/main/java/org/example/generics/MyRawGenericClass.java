@@ -2,6 +2,8 @@ package org.example.generics;
 
 public class MyRawGenericClass<T> {
 
+  T myVariable;
+
   public <T> String transform(T t) {
     return t.toString() + "-" + t.hashCode();
   }
