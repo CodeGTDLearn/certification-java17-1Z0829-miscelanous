@@ -20,6 +20,8 @@ public class InheritanceMethodsInInterfaces implements MyInterface1 {
   public void myInstanceContext() {
 
     MyInterface1.myStaticMethodInterface();
+
+    this.myInstanceMethodInterface();
     myInstanceMethodInterface();
   }
 
