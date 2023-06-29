@@ -5,7 +5,7 @@ interface Classic {
   int version = 1;
 
 
-  static void StaticMEthod() {
+  static void StaticMethod() {
 
     System.out.println("Interface Static Method");
   }
@@ -26,12 +26,12 @@ class MediaReader implements Classic {
 
     System.out.println(((Classic) this).version);
     System.out.println(version);
-    Classic.StaticMEthod();
+    Classic.StaticMethod();
     StaticMEthod();
   }
 }
 
-public class Static_Method_Test {
+public class Static_Method_From_Interface {
   public static void main(String[] args) {
 
     MediaReader mr = new MediaReader();
