@@ -3,7 +3,7 @@ package org.example.inheritance;
 class A {
 }
 
-public class Class_Overriding_itself {
+public class Anonymous_Class {
 
 
   public class Inner {
@@ -20,13 +20,13 @@ public class Class_Overriding_itself {
 
  public static void main(String args[]) {
 
-   new Class_Overriding_itself().new Inner().m();
+   new Anonymous_Class().new Inner().m();
 
-    new Class_Overriding_itself().new Inner() {
+    new Anonymous_Class().new Inner() {
       public void m() {
         System.out.println("Inner_changing his behaviour by itself.");
       }
     }.m();
-    var tc = new Class_Overriding_itself();
+    var tc = new Anonymous_Class();
   }
 }
